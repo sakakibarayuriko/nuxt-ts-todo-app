@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" md="4">
+    <v-col cols="12" sm="6" md="4" class="mx-auto">
       <v-text-field
-        placeholder="Write new TODO..."
+        placeholder="Write new Todo..."
         type="text"
         filled
         rounded

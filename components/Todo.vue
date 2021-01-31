@@ -22,6 +22,7 @@
       />
     </v-card-text>
     <v-card-actions>
+      <v-spacer></v-spacer>
       <v-btn
         v-show="!todo.isEditing"
         class="button is-info"

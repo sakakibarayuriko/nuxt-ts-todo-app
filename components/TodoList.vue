@@ -1,9 +1,9 @@
 <template>
-  <v-list>
-    <v-list-item v-for="todo in allTodos" :key="todo.id.toString()">
+  <v-row>
+    <v-col v-for="todo in allTodos" :key="todo.id.toString()" cols="12" sm="6" md="4">
       <Todo :todo="todo" />
-    </v-list-item>
-  </v-list>
+    </v-col>
+  </v-row>
 </template>
 
 <script lang="ts">
